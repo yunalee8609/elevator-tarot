@@ -1,0 +1,127 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden; 
+}
+
+body {
+    cursor: url(''), auto;
+}
+
+.left-image,
+.right-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 125%;
+    transition: left 0.5s ease;
+    z-index: -1;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 125%;
+}
+
+.light-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 125%; 
+}
+
+.lightcover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 125%; 
+}
+
+.arrow-image {
+    position: absolute;
+    width: 1.3%;
+    left: 49.3%; /* Adjust left position */
+    top: 11.7%;
+    transform-origin: bottom center; /* Set transform origin to bottom center */ 
+    transition: transform 0.7s ease;
+}
+
+/* Adjust button positioning */
+.button1-image,
+.button2-image,
+.button3-image,
+.button4-image,
+.button5-image,
+.button6-image,
+.button7-image {
+    position: absolute;
+    width: 1.5%;
+    left: 84%; /* Adjust horizontal position */
+}
+
+.button1-image { top: 41%; }
+.button2-image { top: 45.5%; }
+.button3-image { top: 50%; }
+.button4-image { top: 54.5%; }
+.button5-image { top: 59%; }
+.button6-image { top: 63.5%; }
+.button7-image { top: 68%; }
+
+.button1-image:hover,
+.button2-image:hover,
+.button3-image:hover,
+.button4-image:hover,
+.button5-image:hover,
+.button6-image:hover,
+.button7-image:hover{
+    position: absolute;
+    width: 1.9%;
+    left: 84%; }
+
+
+/* Adjust card positioning */
+.card1-image,
+.card2-image,
+.card3-image,
+.card4-image,
+.card5-image,
+.card6-image,
+.card7-image {
+    position: absolute;
+    top: 33.9%;
+    margin-left: 35%;
+    height: 91%;
+    width: 30%;
+    z-index: -2;
+}
+
+#splashImage {
+    position: fixed;
+    top: 10%; /* Adjust top position */
+    left: 20%; /* Adjust left position */
+    width: calc(60%); /* Adjust width */
+    height: calc(100% - 100px); /* Adjust height */
+    z-index: 9999;
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+
+.light2 {
+    position: absolute;
+    top: 40%;
+    margin-left: 90%;
+    width: 7%
+}
+.light3 {
+    position: absolute;
+    top: 40%;
+    margin-left: 75%;
+    width: 7%
+}
